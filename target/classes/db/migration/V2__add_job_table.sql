@@ -1,0 +1,5 @@
+CREATE TABLE IF NOT EXISTS `job_details` (
+  `id` VARCHAR(200) NOT NULL,
+  `status` VARCHAR(200) NOT NULL,
+  PRIMARY KEY (`id`))
+  ENGINE=InnoDB DEFAULT CHARSET=utf8;
